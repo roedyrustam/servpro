@@ -1,0 +1,49 @@
+
+
+.bwizard-steps {background-color:#efefef;display: inline-block;margin: 0 0 30px; padding: 0;background: #efefef;width: 100%;border-radius: 40px;-moz-border-radius: 40px;-webkit-border-radius: 40px;}
+
+.bwizard-steps .active {color: #fff;background: #bbadfc;border-radius: 40px;-moz-border-radius: 40px;-webkit-border-radius: 40px;}
+
+.bwizard-steps .active a {color: #fff;cursor: default }
+
+.bwizard-steps .label {color: #333;background-color:#fff;display: inline-block;line-height: 18px;border-radius:50%;height: 38px;padding: 10px;width: 38px;position: relative;top: -1px;font-size: 16px;margin: 0 5px 0 0;}
+
+.bwizard-steps li {display: inline-block; position: relative;padding: 12px 12px 10px; line-height: 18px;list-style: none;min-height: 60px;width: 25%;float: left;zoom: 1;}
+
+.bwizard-steps a {color: #333;}
+
+.bwizard-steps a:hover {text-decoration: none;}
+
+.bwizard-steps.clickable li:not(.active) {cursor: pointer;}
+
+.bwizard-steps.clickable li:hover:not(.active) {background: #ccc;}
+
+.bwizard-steps.clickable li:hover:not(.active):after {border-left-color: #ccc;}
+
+.bwizard-steps.clickable li:hover:not(.active) a {color: #08c;}
+
+.wizard-content {min-height:300px;}
+
+.wizard-box {background-color: #fff;border: 1px solid #e7e7e7;padding: 30px;}
+
+.installer-page {background-color:#fafafa;}
+
+.installer-page .content {background-color:#fafafa;}
+
+.wizard-box .tab-content {background-color: #fff;padding: 0;}
+
+.installer-box {margin-top: 60px;}
+
+.installer-title {margin-bottom: 30px;margin-top: 0;text-align:center;}
+
+.pager.wizard {margin-bottom: 0;}
+
+.wizard > li > a {color: #565656;}
+
+.wizard-content .form-control {height: 40px;}
+
+.pager li > button {background-color: #fff;border: 1px solid #ddd;border-radius: 15px;color: #636e7b ;display: inline-block;float: right;padding: 5px 14px;}
+
+.web-guru {background: rgba(0, 0, 0, 0) url("../images/img_guru_of_the_day_right.png") no-repeat scroll 0 0;height: 117px;position: fixed;right: 0;top: 10px;width: 75px;z-index: 99999;}
+
+.download-link {background: rgba(0, 0, 0, 0) url("../images/download.png") no-repeat scroll 0 0;height: 121px;position: fixed;right: 0;top: 220px;width: 150px;z-index: 1000;}
